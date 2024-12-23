@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:3.14.0a3
 
 WORKDIR /app
 COPY server/wasm_server.py /app/server/
